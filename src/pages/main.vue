@@ -912,6 +912,7 @@ export default {
   /*Chrome style reset*/
   input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    box-shadow: 0 0 0 1000px white inset !important;
   }
 
   /*Element-ui style reset*/

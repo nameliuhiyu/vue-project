@@ -4,6 +4,10 @@ import Router from 'vue-router';
 import Main from '@/pages/main';
 
 import Dashboard from '@/pages/dashboard/dashboard';
+//安路由加载的配置
+// const Home = () => import(/* webpackChunkName: "home" */'@/pages/Home');
+// const Login = () => import(/* webpackChunkName: "login" */'@/pages/Login');
+// const Demo = () => import(/* webpackChunkName: "demo" */'@/pages/Demo');
 
 Vue.use(Router);
 export const constantRouterMap = [
